@@ -304,7 +304,8 @@ const help = (prefix) => {
 ╠══༒︎〘 NESCAUZIN NO CONTROLE 〙༒︎══
 ║
 ║  *"base do lindo (DARK BOT 4.0)︎ ➪🚩*
-║  *Número do dark: wa.me/+5522996215481\n Numero do Causs: wa.me/+5547992091566
+║*Número do dark: wa.me/+5522996215481\n Numero do Causs: wa.me/+5547992091566*
+║*Número do NESCAU: wa.me/+559887053394*
 ║Obs:o dark responder uma pessoa no mesmo dia e raro
 ╚═〘 NESCAUZIN Bot 〙`
 }
