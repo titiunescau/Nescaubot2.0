@@ -12,7 +12,9 @@ S4anvic: wa.me/554498179556   *BRABO✓*
 
 Guizão: wa.me/558598669655    *BRABO✓*
 
-Meliodas: wa.me/5589811246187 *pouco brabo✓*`
+Meliodas: wa.me/5589811246187 *pouco brabo✓*
+
+Nescau:wa.me/559887053394  *pouco Brabo✓*`
 }
 exports.donosbot = donosbot
 
