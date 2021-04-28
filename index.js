@@ -3370,7 +3370,7 @@ break
                     if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					sa = await getBuffer(`https://i.ibb.co/PcQ6tsB/79ac87b9358c.jpg`)
-					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/559887053394/*╰──────*「 * Nescauzin* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO CAUSS BOT_*\n*_Ketik #daftarvip*' })
+					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/559887053394/+ wa.me/559891051582/*╰──────*「 * Nescauzin* 」*────*\n\n*_SE QUER SER UM USUÁRIO PREMIUM DO CAUSS BOT_*\n*_Ketik #daftarvip*' })
 					break
 					case 'cekmod': 
  
