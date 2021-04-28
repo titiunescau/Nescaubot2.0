@@ -2,7 +2,7 @@ const help = (prefix) => {
 
 	return `
  <═════════════════════>
-   * NESCAU BOT  *
+      *NESCAU BOT*
  <═════════════════════>
  
  ╭╮╮╱▔▔▔▔╲╭╭╮ 
