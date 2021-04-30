@@ -276,24 +276,24 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-					wait: 'Espere vey, vai casar é',
-					success: '️❬ ✔ ❭ Pronto vey 🖤',
+					wait: 'Espera um pouquinho krai , ja ta indo',
+					success: '️❬ ✔ ❭ prontinho corno',
 					levelon: '❬ ✔ ❭ *leveling* *ativado*',
 					leveloff: ' ❬ X ❭  *leveling* *desativado*',
 					levelnoton: '❬ X ❭ *leveling não ativado*',
 					levelnol: '*error* 0 °-°',
 					error: {
-				stick: '*Bem, falhe, tente novamente ^_^*',
-				Iv: '𝗠𝗮𝗮𝗳 𝗹𝗶𝗻𝗸 𝘁𝗶𝗱𝗮𝗸 𝘃𝗮𝗹𝗶𝗱☹️'
+				stick: 'iiiii rapa foi não,manda novamente ^_^*',
+				Iv: 'Acho que esse link da quebrado véi☹️'
 				},
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
-					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
-					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD BAN BOT*',
+					premium: '[❗]Ei {pushname2} Só usuarios PREMIUMS podem usar este comando*',
+					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD NESCAU BOT*',
 					benned: 'Você para a banda, por favor, contate o proprietário para abrir sua banda',
 					ownerG: '[❗] Nescau? Este é um recurso especial para o Nescau ❌',
 					ownerB: '[❗] Nescau? Este é um recurso especial para o Nescau ❌',
-					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmã. Você não está registrado como amigo de Nescauzin. Registre-se para fazer amizade com o bot Nescauzin por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar Causs|17\n\n──「 CAUSS BOT 」──`,
+					userB:   '──「 LISTA 」──\nOlá ${pushname} !\nDesculpe, maninho. Você não está registrado como amigo de Nescauzin. Registre-se para fazer amizade com o bot Nescauzin por meio, \n\nCommand : ${prefix}daftar nama|idade\nExemplo : ${prefix}daftar Causs|17\n\n──「 CAUSS BOT 」──`,
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
 				}
@@ -594,7 +594,7 @@ if (text.includes("placa"))
 	        if (messagesC.includes("://chat.whatsapp.com/")){
 		if (!isGroup) return
 		if (!isAntiLink) return
-		if (isGroupAdmins) return reply('vc é admin, então n irei te dar ban por usar links, rlx 🙂')
+		if (isGroupAdmins) return reply('vc é admin, então n irei te dar ban por usar links, rlx, mas se vacilar eu tiro 🙂')
 		client.updatePresence(from, Presence.composing)
 		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
@@ -627,7 +627,7 @@ if (text.includes("placa"))
 		        if (messagesC.includes("https://")){
 		if (!isGroup) return
 		if (!isAntiLink) return
-		if (isGroupAdmins) return reply('vc é admin, então n irei te dar ban por usar links, rlx 🙂')
+		if (isGroupAdmins) return reply('vc é admin, então n irei te dar ban por usar links, rlx, mas se vacilar eu tiro 🙂')
 		client.updatePresence(from, Presence.composing)
 		if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
@@ -1499,7 +1499,7 @@ if (text.includes("placa"))
 					setTimeout( () => {
 					client.sendMessage(from, anu.result.soal, text, { quoted: mek }) // ur cods
 					}, 0) // 1000 = 1s,
-					break
+					break  
 					case 'brainly':
                     brien = body.slice(9)
 					brainly(`${brien}`).then(res => {
